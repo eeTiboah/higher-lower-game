@@ -39,10 +39,9 @@ while not end_game:
 		score+=1
 		mutate_list()
 		print(f"Correct. Current score is {score} \n")
-	elif (choice=='a' and account_b_bool) or (choice=='b' and account_a_bool):
+	else:
 		print(f"Sorry. That's wrong. Your final score is {score}")
 		end_game=True
-
 
 
 
